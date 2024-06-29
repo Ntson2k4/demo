@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:th="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www/thymeleaf.org ">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <hr>
+<a th:href="@{|student?index=${n-1}|}">Prev</a>
+[~[[${n+1}]]/4~]
+<a th:href="@{|student?index=${n+1}|}">Next</a>
+
+<hr>
+<ul>
+    <li>Name:[[${sv.name}]]</li>
+    <li>Gender:[[${sv.gender?'Male':'Female'}]]</li>
+    <Li>Email:[[${sv.email}]]</Li>
+    <Li>Marks:[[${sv.marks}]]</Li>
+    <Li>Result:[[${sv.marks>5?'pass':''fail}]]</Li>
+</ul>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+  "name": "Nguyễn Văn A",
+  "gender": true,
+  "marks": 7.5,
+  "email": "vana@gmail.com",
+},
+  {
+    "name": "Nguyễn Văn B",
+    "gender": false,
+    "marks": 7.1,
+    "email": "vanb@gmail.com",
+  },
+  {
+    "name": "Nguyễn Văn C",
+    "gender": false,
+    "marks": 5.5,
+    "email": "vanc@gmail.com",
+  },
+  {
+    "name": "Nguyễn Văn D",
+    "gender": true,
+    "marks": 2.5,
+    "email": "vand@gmail.com",
+  }
+  ]
